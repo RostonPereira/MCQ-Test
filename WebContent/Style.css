@@ -1,0 +1,203 @@
+/* CSS Document */
+/*
+Ignore this
+*/
+
+body {
+	background-color:#efefef;
+	}
+
+h1 {
+  font-family:arial;
+  text-align:center;
+  font-size:40px;
+}
+
+
+/*
+ * Down
+*/
+
+button {
+	/*  */
+	position:relative;
+	padding:15px;
+	margin:10px;
+	width:250000px;
+	
+	/* Font Styling */
+	font-size:20px;
+	font-weight:bold;
+	color:#FFF;
+	}
+
+/* Styling the Button */
+.down {
+
+	-webkit-transition: all 0.1s;
+	-moz-transition: all 0.1s;
+	transition: all 0.1s;
+	
+	background:#34495e;
+	border: solid 1px #16a085;
+	
+	
+	/* Note the parameters 0px 9px 0px
+	 * This adds the 9px sized shadow on the buttom of the button
+	 */
+    -webkit-box-shadow: 0px 9px 0px #16a085;
+    -moz-box-shadow: 0px 9px 0px #16a085;
+    box-shadow: 0px 9px 0px #16a085;
+	}	
+	
+/* When the button is clicked */	
+.down:active{
+	
+    position:relative;
+    top:7px;
+	
+	-webkit-transition: all 0.1s;
+	-moz-transition: all 0.1s;
+	transition: all 0.1s;
+	
+	/* Note that we change the 9px to 2px 
+	 * So we have add the feel that the buttons it pushed when clicked
+	*/
+    -webkit-box-shadow: 0px 2px 0px #16a085;
+    -moz-box-shadow: 0px 2px 0px #16a085;
+    box-shadow: 0px 2px 0px #16a085;
+}
+
+.active 
+{
+	
+    position:relative;
+    top:7px;
+	
+	-webkit-transition: all 0.1s;
+	-moz-transition: all 0.1s;
+	transition: all 0.1s;
+	
+	/* Note thet we change the 9px to 2px 
+	 * So we have add the feel that the buttons it pushed when clicked
+	*/
+    -webkit-box-shadow: 0px 2px 0px #16a085;
+    -moz-box-shadow: 0px 2px 0px #16a085;
+    box-shadow: 0px 2px 0px #16a085;
+}
+/*
+ * up
+*/
+
+.up {
+	background:#FFF;
+	border: solid 1px #2980b9;
+	
+	-webkit-transition: all 0.1s;
+	-moz-transition: all 0.1s;
+	transition: all 0.1s;
+	
+	/* Note the parameters 0px -9px 0px
+	 * This adds the 9px sized shadow on the buttom of the button
+	 */	
+	-webkit-box-shadow: 0px -9px 0px #2980b9;
+    -moz-box-shadow: 0px -9px 0px #2980b9;
+    box-shadow: 0px -9px 0px #2980b9;
+	}
+	
+.up:active{
+	
+	-webkit-transition: all 0.1s;
+	-moz-transition: all 0.1s;
+	transition: all 0.1s;
+	
+    position:relative;
+    bottom:7px;
+	
+	/* Note that we change the -9px to -2px 
+	 * So we have add the feel that the buttons it pushed when clicked
+	*/    
+	-webkit-box-shadow: 0px -2px 0px #2980b9;
+    -moz-box-shadow: 0px -2px 0px #2980b9;
+    box-shadow: 0px -2px 0px #2980b9;
+}
+
+/*
+ * right
+*/
+
+.right {
+	position:relative;
+	padding:15px;
+	margin:10px;	
+	width:250px;
+	
+	background:#34495e;
+	border: solid 1px #8e44ad;
+	
+	font-size:20px;
+	font-weight:bold;
+	color:#FFF;
+	
+	-webkit-transition: all 0.1s;
+	-moz-transition: all 0.1s;
+	transition: all 0.1s;
+	
+	-webkit-box-shadow: 9px 0px 0px #8e44ad;
+    -moz-box-shadow: 9px 0px 0px #8e44ad;
+    box-shadow: 9px 0px 0px #8e44ad;
+	}
+	
+.right:active{
+	
+	-webkit-transition: all 0.1s;
+	-moz-transition: all 0.1s;
+	transition: all 0.1s;
+	
+    position:relative;
+    left:7px;
+	
+    -webkit-box-shadow: 2px 0px 0px #8e44ad;
+    -moz-box-shadow: 2px 0px 0px #8e44ad;
+    box-shadow: 2px 0px 0px #8e44ad;
+}
+
+/*
+ * right
+*/
+
+.left {
+	position:relative;
+	padding:15px;
+	margin-left:30px;
+	width:80px;
+	
+	background:#34495e;
+	border: solid 1px #2c3e50;
+	
+	font-size:15px;
+	font-weight:bold;
+	color:#FFF;
+	
+	-webkit-transition: all 0.1s;
+	-moz-transition: all 0.1s;
+	transition: all 0.1s;
+	
+	-webkit-box-shadow: -9px 0px 0px #2c3e50;
+    -moz-box-shadow: -9px 0px 0px #2c3e50;
+    box-shadow: -9px 0px 0px #2c3e50;
+	}
+	
+.left:active{
+	
+	-webkit-transition: all 0.1s;
+	-moz-transition: all 0.1s;
+	transition: all 0.1s;
+	
+    position:relative;
+    right:7px;
+	
+    -webkit-box-shadow: -2px 0px 0px #2c3e50;
+    -moz-box-shadow: -2px 0px 0px #2c3e50;
+    box-shadow: -2px 0px 0px #2c3e50;
+}
